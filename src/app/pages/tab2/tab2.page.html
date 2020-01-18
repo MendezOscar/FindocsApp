@@ -1,0 +1,49 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-title>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-text color="primary">
+    <h1 class="greeting">Hola</h1>
+    <h3 class="greeting">¿que encontraste?</h3>
+  </ion-text>
+  <br>
+  <ion-item>
+    <ion-label>Documento</ion-label>
+    <ion-select placeholder="Select One">
+      <ion-select-option value="f">Identidad</ion-select-option>
+      <ion-select-option value="m">Licencia</ion-select-option>
+      <ion-select-option value="m">Tajestas</ion-select-option>
+      <ion-select-option value="m">Otro</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <br>
+  <br>
+  <ion-item>
+    <ion-input autocorrect="on" autofocus="on" clearInput="true" clearOnEdit="true" color="dark" inputmode="text"
+      placeholder="Introduzca el propietario" required="true"></ion-input>
+      <ion-icon name="man"></ion-icon>
+  </ion-item>
+  <br>
+  <br>
+  <ion-item>
+    <ion-input autocorrect="on" autofocus="on" clearInput="true" clearOnEdit="true" color="dark" inputmode="text"
+      placeholder="Lugar donde la encontro" required="true"></ion-input>
+      <ion-icon name="pin"></ion-icon>
+  </ion-item>
+  <br>
+  <br>
+  <ion-item>
+    <ion-input autocorrect="on" autofocus="on" clearInput="true" clearOnEdit="true" color="dark" inputmode="text"
+      placeholder="Lugar de permanencia del objeto" required="true"></ion-input>
+      <ion-icon name="pin"></ion-icon>
+  </ion-item>
+  <br>
+  <div padding>
+    <ion-button  type="submit" expand="block" routerLink='/'>Publicar
+    </ion-button>
+  </div>
+
+</ion-content>
